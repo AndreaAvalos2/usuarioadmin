@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+
+body
+{
+    background:#f4f4f4;
+}
+ /*Logo y menu  */
+header
+{
+    display: grid;
+    grid-template-columns: 15rem 1fr 50rem;
+    background: black;
+}
+
+.imgContenedor
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgEncabezado
+{
+    width: 5rem;
+}
+
+.navegacion
+{
+    background: black;
+    margin: auto;
+    cursor: pointer;
+}
+
+.navegacion ul
+{
+    list-style: none;
+    
+}
+
+.menu >li 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu >li > a
+ {
+    display: block;
+    padding: 10px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu li :hover
+{ 
+    background: #ccc;
+    background: linear-gradient(#ECC440,#FFFA8A,#DDAC17,#FFFF95);
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+/* buscador */ 
+
+
+/* icono de configuracion */
+
+
+
+/* Imagen del administrador */
+
+.Administrador .imgAdmin
+{
+    padding: 40px;
+    margin: 90px;
+    border: 1px solid black;
+    width: 50%;
+    
+}
+.Administrador h2
+{
+    margin-top: -70px;
+    margin-left: 11rem ;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+.Contenedor
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+
+/* Icono de configuracion*/
+
+.icono
+{
+    margin-left: 450px;
+    cursor: pointer;
+}
+
+/* Texto, nombre del trabajador */
+
+.nombreTrab h1
+{
+    
+    margin-top: 100px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+/* Texto de ultimas ventas*/
+
+h3
+{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 60px;
+    
+}
+
+
+
+/* Imagen Producto contenedor */
+
+.Contenedor2
+{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
+
+
+.ventas .imgVenta
+{
+    padding: 10px;
+    width: 80%;
+   
+}
+/*Texto Ultimas ventas */
+.ventas h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
